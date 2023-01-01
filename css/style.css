@@ -1,0 +1,221 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.grid {
+    background: fuchsia;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+.in_grid {
+    background: darkgray;
+    color: aliceblue;
+    outline: 2px solid black;
+}
+
+.grid2 {
+    background: fuchsia;
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+
+}
+
+.in_grid2 {
+    background: rgb(240, 145, 145);
+    color: aliceblue;
+    outline: 2px solid black;
+    height: 50px;
+}
+
+.in_grid2- {
+    background: rgb(245, 101, 101);
+    color: aliceblue;
+    outline: 2px solid black;
+
+}
+
+.grid_3 {
+    background: fuchsia;
+    grid-template-columns: 3fr 6fr;
+    display: grid;
+    grid-template-rows: 150px;
+
+}
+
+.in1_grid_3 {
+    background: rgb(144, 236, 119);
+    color: aliceblue;
+    outline: 2px solid black;
+
+}
+
+.in2_grid_3 {
+    background: rgb(84, 229, 45);
+    color: aliceblue;
+    outline: 2px solid black;
+
+    display: inline-grid;
+}
+
+.grid_levii {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.levie {
+    background: firebrick;
+    outline: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.levie2 {
+    background: rgb(255, 0, 0);
+    outline: 2px solid black;
+}
+
+.levie3 {
+    background: rgb(87, 2, 2);
+    outline: 2px solid black;
+}
+
+.grid_4 {
+    grid-template-columns: 6fr 3fr;
+    display: grid;
+    grid-template-rows: 150px;
+}
