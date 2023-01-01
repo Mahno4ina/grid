@@ -71,12 +71,13 @@
     background: firebrick;
     outline: 2px solid black;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    height: 40px;
 }
 
 .levie2 {
     background: rgb(255, 0, 0);
     outline: 2px solid black;
+    
     
 }
 
@@ -90,4 +91,3 @@
     display: grid;
     grid-template-rows: 150px;
 }
-
